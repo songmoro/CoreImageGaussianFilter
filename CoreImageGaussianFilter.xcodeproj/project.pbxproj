@@ -11,6 +11,7 @@
 		F8A21C5E2B334204006FAAF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A21C5D2B334204006FAAF0 /* ContentView.swift */; };
 		F8A21C602B334206006FAAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A21C5F2B334206006FAAF0 /* Assets.xcassets */; };
 		F8A21C632B334206006FAAF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A21C622B334206006FAAF0 /* Preview Assets.xcassets */; };
+		F8A21C6A2B334260006FAAF0 /* GaussianFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A21C692B334260006FAAF0 /* GaussianFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F8A21C5D2B334204006FAAF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8A21C5F2B334206006FAAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8A21C622B334206006FAAF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8A21C692B334260006FAAF0 /* GaussianFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaussianFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F8A21C5B2B334204006FAAF0 /* CoreImageGaussianFilterApp.swift */,
 				F8A21C5D2B334204006FAAF0 /* ContentView.swift */,
+				F8A21C692B334260006FAAF0 /* GaussianFilter.swift */,
 				F8A21C5F2B334206006FAAF0 /* Assets.xcassets */,
 				F8A21C612B334206006FAAF0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A21C6A2B334260006FAAF0 /* GaussianFilter.swift in Sources */,
 				F8A21C5E2B334204006FAAF0 /* ContentView.swift in Sources */,
 				F8A21C5C2B334204006FAAF0 /* CoreImageGaussianFilterApp.swift in Sources */,
 			);
