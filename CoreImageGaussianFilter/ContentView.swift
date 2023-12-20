@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    let gaussianFilter = GaussianFilter()
+    
+    @State var image = UIImage(named: "lena")!
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Image(uiImage: image)
+            
+            Button {
+                image = gaussianFilter.applyGaussianFilter(image)
+            } label: {
+                Text("Gaussian Filter")
+            }
         }
-        .padding()
     }
 }
 
